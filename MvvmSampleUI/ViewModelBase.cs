@@ -1,10 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace MvvmCore
+namespace MvvmSampleUI
 {
     public abstract partial class ViewModelBase : ObservableObject
     {
-
         [ObservableProperty]
         private bool canSave;
 
