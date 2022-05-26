@@ -4,9 +4,8 @@ using ViewModeBase;
 
 namespace MvvmCore 
 {
-    public partial class ViewModel : ViewModelBase
+    public partial class ViewModelWithOutsideViewModelBase : ViewModelBaseOutsideProject
     {
-
         [ICommand(CanExecute = nameof(CanSave))]
         public override void Save()
         {
