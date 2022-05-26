@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace MvvmCore
+namespace ViewModeBase
 {
     public abstract partial class ViewModelBase : ObservableObject
     {
